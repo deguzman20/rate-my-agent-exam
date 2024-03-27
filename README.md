@@ -28,4 +28,4 @@
 
 To schedule the script to run every 3 minutes, add the following line to your crontab:
 
-_/3 _ \* \* \* cd /path/to/your/script && ruby rate_my_agent_checker.rb
+*/3 * * * * cd /path/to/your/script && ruby rate_my_agent_checker.rb
